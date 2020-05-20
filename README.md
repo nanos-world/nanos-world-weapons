@@ -2,7 +2,12 @@
 Default nanos.world Weapon's Package
 
 # Usage
+Clone this repository into your Packages folder (or just download it and place nanos-world-weapons folder into Packages folder)
+
 ```lua
+-- Includes this Package in your Package
+Package:RequirePackage("nanos-world-weapons")
+
 -- Spawning the AK47
 local my_ak47 = NanosWorldWeapons.AK47(Vector(1035, 154, 300), Rotator())
 

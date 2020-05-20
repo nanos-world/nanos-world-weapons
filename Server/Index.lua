@@ -168,7 +168,91 @@ NanosWorldWeapons = {
 			"NanosWorld/Weapons/Pistols/Glock/SM_Glock_Mag_Empty"								-- Magazine Mesh
 		)
 	end,
-	
+
+	DesertEagle = function(Location, Rotation)
+		return Weapon(
+			Location,
+			Rotation,
+			"NanosWorld/Weapons/Pistols/DesertEagle/SK_DesertEagle",	-- Model
+			0,						-- Collision (Normal)
+			true,					-- Gravity Enabled
+			7,						-- Ammo in the Clip
+			1000,					-- Ammo in the Bag
+			7,						-- Clip Capacity
+			45,						-- Base Damage
+			15,						-- Spread
+			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
+			7,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
+			20000,					-- Max Bullet Distance
+			7500,					-- Bullet Speed (visual only)
+			Color(20, 10000, 0),	-- Bullet Color
+			0.6,					-- Sight's FOV multiplier
+			Vector(0, 0, -11.5),	-- Sight Location
+			Rotator(-0.6, 0, 0),	-- Sight Rotation
+			Vector(2, -1.5, 0),		-- Left Hand Location
+			Rotator(0, 50, 130),	-- Left Hand Rotation
+			Vector(-30, 0, 5),		-- Right Hand Offset
+			0,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			0.35,					-- Cadence
+			false,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
+			false,					-- Need to release to Fire (common to Bows)
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
+			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Barrel_Smoke",							-- Barrel Particle
+			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Audios/A_Pistol_Dry_Cue",								-- Weapon's Dry Sound
+			"NanosWorld/Weapons/Common/Audios/A_Pistol_Load_Cue",								-- Weapon's Load Sound
+			"NanosWorld/Weapons/Common/Audios/A_Pistol_Unload_Cue",								-- Weapon's Unload Sound
+			"NanosWorld/Weapons/Common/Audios/Rattle/A_AimZoom_Cue",							-- Weapon's Zooming Sound
+			"NanosWorld/Weapons/Common/Audios/Rattle/A_Rattle_Cue",								-- Weapon's Aiming Sound
+			"NanosWorld/Weapons/Common/Audios/A_DesertEagle_Shot_Cue",							-- Weapon's Shot Sound
+			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Pistol",		-- Character's Reloading Animation
+			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
+			"NanosWorld/Weapons/Pistols/DesertEagle/SM_DesertEagle_Mag_Empty"					-- Magazine Mesh
+		)
+	end,
+
+	AR4 = function(Location, Rotation)
+		return Weapon(
+			Location,
+			Rotation,
+			"NanosWorld/Weapons/Rifles/AR4/SK_AR4",	-- Model
+			0,						-- Collision (Normal)
+			true,					-- Gravity Enabled
+			30,						-- Ammo in the Clip
+			1000,					-- Ammo in the Bag
+			30,						-- Clip Capacity
+			30,						-- Base Damage
+			10,						-- Spread
+			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
+			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
+			20000,					-- Max Bullet Distance
+			7500,					-- Bullet Speed (visual only)
+			Color(10000, 20, 0),	-- Bullet Color
+			0.5,					-- Sight's FOV multiplier
+			Vector(0, 0, -17.6),	-- Sight Location
+			Rotator(-0.2, 0, 0),	-- Sight Rotation
+			Vector(30, 0, 10),		-- Left Hand Location
+			Rotator(0, 60, 90),		-- Left Hand Rotation
+			Vector(-12.5, 0, 0),	-- Right Hand Offset
+			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			0.15,					-- Cadence (1 shot at each 0.15seconds)
+			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
+			false,					-- Need to release to Fire (common to Bows)
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
+			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Barrel_Smoke",								-- Barrel Particle
+			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Audios/A_Rifle_Dry_Cue",									-- Weapon's Dry Sound
+			"NanosWorld/Weapons/Common/Audios/A_Rifle_Load_Cue",								-- Weapon's Load Sound
+			"NanosWorld/Weapons/Common/Audios/A_Rifle_Unload_Cue",								-- Weapon's Unload Sound
+			"NanosWorld/Weapons/Common/Audios/Rattle/A_AimZoom_Cue",							-- Weapon's Zooming Sound
+			"NanosWorld/Weapons/Common/Audios/Rattle/A_Rattle_Cue",								-- Weapon's Aiming Sound
+			"NanosWorld/Weapons/Common/Audios/A_Rifle_Shot_Cue",								-- Weapon's Shot Sound
+			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Rifle",		-- Character's Reloading Animation
+			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
+			"NanosWorld/Weapons/Rifles/AR4/SM_AR4_Mag_Empty"									-- Magazine Mesh
+		)
+	end,
+
 	Moss500 = function(Location, Rotation)
 		return Weapon(
 			Location,
