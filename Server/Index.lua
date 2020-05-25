@@ -16,7 +16,7 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(20, 10000, 0),	-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -14.85),	-- Sight Location
@@ -58,7 +58,7 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(10000, 20, 0),	-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -16),		-- Sight Location
@@ -78,7 +78,7 @@ NanosWorldWeapons = {
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Unload_Cue",								-- Weapon's Unload Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_AimZoom_Cue",							-- Weapon's Zooming Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_Rattle_Cue",								-- Weapon's Aiming Sound
-			"NanosWorld/Weapons/Common/Audios/A_Rifle_Shot_Cue",								-- Weapon's Shot Sound
+			"NanosWorld/Weapons/Common/Audios/A_AK47_Shot_Cue",									-- Weapon's Shot Sound
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Rifle",		-- Character's Reloading Animation
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
 			"NanosWorld/Weapons/Rifles/AK74U/SM_AK74U_Mag_Empty"								-- Magazine Mesh
@@ -100,7 +100,7 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(10000, 20, 0),	-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -16.6),-- Sight Location
@@ -142,7 +142,7 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			17,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(20, 10000, 0),	-- Bullet Color
 			0.6,					-- Sight's FOV multiplier
 			Vector(0, 0, -8.5),		-- Sight Location
@@ -162,7 +162,7 @@ NanosWorldWeapons = {
 			"NanosWorld/Weapons/Common/Audios/A_Pistol_Unload_Cue",								-- Weapon's Unload Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_AimZoom_Cue",							-- Weapon's Zooming Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_Rattle_Cue",								-- Weapon's Aiming Sound
-			"NanosWorld/Weapons/Common/Audios/A_Pistol_Shot_Cue",								-- Weapon's Shot Sound
+			"NanosWorld/Weapons/Common/Audios/A_Glock_Shot_Cue",								-- Weapon's Shot Sound
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Pistol",		-- Character's Reloading Animation
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
 			"NanosWorld/Weapons/Pistols/Glock/SM_Glock_Mag_Empty"								-- Magazine Mesh
@@ -184,7 +184,7 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			7,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(20, 10000, 0),	-- Bullet Color
 			0.6,					-- Sight's FOV multiplier
 			Vector(0, 0, -11.5),	-- Sight Location
@@ -193,7 +193,7 @@ NanosWorldWeapons = {
 			Rotator(0, 50, 130),	-- Left Hand Rotation
 			Vector(-30, 0, 5),		-- Right Hand Offset
 			0,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
-			0.35,					-- Cadence
+			0.45,					-- Cadence
 			false,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
@@ -226,7 +226,7 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(10000, 20, 0),	-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -17.6),	-- Sight Location
@@ -235,7 +235,7 @@ NanosWorldWeapons = {
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-12.5, 0, 0),	-- Right Hand Offset
 			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
-			0.15,					-- Cadence (1 shot at each 0.15seconds)
+			0.1,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
@@ -246,7 +246,7 @@ NanosWorldWeapons = {
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Unload_Cue",								-- Weapon's Unload Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_AimZoom_Cue",							-- Weapon's Zooming Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_Rattle_Cue",								-- Weapon's Aiming Sound
-			"NanosWorld/Weapons/Common/Audios/A_Rifle_Shot_Cue",								-- Weapon's Shot Sound
+			"NanosWorld/Weapons/Common/Audios/A_M4A1_Shot_Cue",									-- Weapon's Shot Sound
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Rifle",		-- Character's Reloading Animation
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
 			"NanosWorld/Weapons/Rifles/AR4/SM_AR4_Mag_Empty"									-- Magazine Mesh
@@ -268,7 +268,7 @@ NanosWorldWeapons = {
 			6,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			1,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			10000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(10000, 20, 0),	-- Bullet Color
 			0.75,					-- Sight's FOV multiplier
 			Vector(0, 0, -12.5),	-- Sight Location
@@ -310,7 +310,7 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(10000, 20, 0),	-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -16.5),	-- Sight Location
@@ -326,11 +326,11 @@ NanosWorldWeapons = {
 			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Barrel_Smoke",								-- Barrel Particle
 			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Shells",									-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Dry_Cue",									-- Weapon's Dry Sound
-			"NanosWorld/Weapons/Common/Audios/A_SMG_Load_Cue",								-- Weapon's Load Sound
+			"NanosWorld/Weapons/Common/Audios/A_SMG_Load_Cue",									-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Unload_Cue",								-- Weapon's Unload Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_AimZoom_Cue",							-- Weapon's Zooming Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_Rattle_Cue",								-- Weapon's Aiming Sound
-			"NanosWorld/Weapons/Common/Audios/A_SMG_Shot_Cue",								-- Weapon's Shot Sound
+			"NanosWorld/Weapons/Common/Audios/A_LightMachine_Shot_Cue",							-- Weapon's Shot Sound
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Rifle",		-- Character's Reloading Animation
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
 			"NanosWorld/Weapons/Rifles/AP5/SM_AP5_Mag_Empty"									-- Magazine Mesh
@@ -352,7 +352,7 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			32,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			5000,					-- Max Bullet Distance
-			7500,					-- Bullet Speed (visual only)
+			15000,					-- Bullet Speed (visual only)
 			Color(10000, 20, 0),	-- Bullet Color
 			0.55,					-- Sight's FOV multiplier
 			Vector(0, 0, -14.75),	-- Sight Location
@@ -368,11 +368,11 @@ NanosWorldWeapons = {
 			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Barrel_Smoke",								-- Barrel Particle
 			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Shells",									-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Dry_Cue",									-- Weapon's Dry Sound
-			"NanosWorld/Weapons/Common/Audios/A_SMG_Load_Cue",								-- Weapon's Load Sound
+			"NanosWorld/Weapons/Common/Audios/A_SMG_Load_Cue",									-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Unload_Cue",								-- Weapon's Unload Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_AimZoom_Cue",							-- Weapon's Zooming Sound
 			"NanosWorld/Weapons/Common/Audios/Rattle/A_Rattle_Cue",								-- Weapon's Aiming Sound
-			"NanosWorld/Weapons/Common/Audios/A_SMG_Shot_Cue",								-- Weapon's Shot Sound
+			"NanosWorld/Weapons/Common/Audios/A_SMG_Shot_Cue",									-- Weapon's Shot Sound
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Reload_Pistol",		-- Character's Reloading Animation
 			"NanosWorld/Characters/Common/Animations/Weapons/AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
 			"NanosWorld/Weapons/Rifles/AP5/SM_AP5_Mag_Empty"									-- Magazine Mesh
