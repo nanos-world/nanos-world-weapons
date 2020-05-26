@@ -29,8 +29,8 @@ NanosWorldWeapons = {
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
-			"NanosWorld/Weapons/Rifles/AK47/PS_AK47_Barrel_Smoke",								-- Barrel Particle
-			"NanosWorld/Weapons/Rifles/AK47/PS_AK47_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_762x39_System",	-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Dry_Cue",									-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Load_Cue",								-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Unload_Cue",								-- Weapon's Unload Sound
@@ -71,8 +71,8 @@ NanosWorldWeapons = {
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
-			"NanosWorld/Weapons/Rifles/AK47/PS_AK47_Barrel_Smoke",								-- Barrel Particle
-			"NanosWorld/Weapons/Rifles/AK47/PS_AK47_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_545x39_System",	-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Dry_Cue",									-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Load_Cue",								-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Unload_Cue",								-- Weapon's Unload Sound
@@ -113,8 +113,8 @@ NanosWorldWeapons = {
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
-			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Barrel_Smoke",								-- Barrel Particle
-			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_556x45_System",	-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Dry_Cue",									-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Load_Cue",								-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Unload_Cue",								-- Weapon's Unload Sound
@@ -155,8 +155,8 @@ NanosWorldWeapons = {
 			false,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
-			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Barrel_Smoke",							-- Barrel Particle
-			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_9mm_System",	-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_Pistol_Dry_Cue",								-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_Pistol_Load_Cue",								-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_Pistol_Unload_Cue",								-- Weapon's Unload Sound
@@ -197,8 +197,8 @@ NanosWorldWeapons = {
 			false,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
-			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Barrel_Smoke",							-- Barrel Particle
-			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_45ap_System",	-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_Pistol_Dry_Cue",								-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_Pistol_Load_Cue",								-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_Pistol_Unload_Cue",								-- Weapon's Unload Sound
@@ -239,8 +239,8 @@ NanosWorldWeapons = {
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
-			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Barrel_Smoke",								-- Barrel Particle
-			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_556x45_System",	-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Dry_Cue",									-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Load_Cue",								-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_Rifle_Unload_Cue",								-- Weapon's Unload Sound
@@ -281,8 +281,8 @@ NanosWorldWeapons = {
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"",																					-- Bullet Trail Particle
-			"NanosWorld/Weapons/Shotguns/Moss500/PS_Moss500_Barrel_Smoke",						-- Barrel Particle
-			"NanosWorld/Weapons/Shotguns/Moss500/PS_Moss500_Shells_Trail",						-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_12Gauge_System",-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_Shotgun_Dry_Cue",								-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_Shotgun_Load_Bullet_Cue",						-- Weapon's Load Sound
 			"",																					-- Weapon's Unload Sound
@@ -323,8 +323,8 @@ NanosWorldWeapons = {
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
-			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Barrel_Smoke",								-- Barrel Particle
-			"NanosWorld/Weapons/Rifles/GE36/PS_GE36_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_9x18_System",	-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Dry_Cue",									-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Load_Cue",									-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Unload_Cue",								-- Weapon's Unload Sound
@@ -365,8 +365,8 @@ NanosWorldWeapons = {
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Bullet_Trail_System",	-- Bullet Trail Particle
-			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Barrel_Smoke",								-- Barrel Particle
-			"NanosWorld/Weapons/Pistols/Glock/PS_Glock_Shells",									-- Shells Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_BarrelSmoke_System",	-- Barrel Particle
+			"NanosWorld/Weapons/Common/Effects/ParticlesSystems/Weapons/P_Weapon_Shells_9x18_System",	-- Shells Particle
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Dry_Cue",									-- Weapon's Dry Sound
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Load_Cue",									-- Weapon's Load Sound
 			"NanosWorld/Weapons/Common/Audios/A_SMG_Unload_Cue",								-- Weapon's Unload Sound
