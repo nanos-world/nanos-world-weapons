@@ -1,0 +1,10 @@
+# Package Configurations
+[package]
+	# Package Name
+	name =				"Nanos World Default Weapons"
+	# Package Type: 'executable' (normal package) | 'library' (doesn't run - useful for code library)
+	type =				"library"
+	# Asset Packs Requirements
+	assets_requirements = [
+
+	]
