@@ -206,7 +206,7 @@ NanosWorldWeapons = {
 			"NanosWorld::A_Rattle",							-- Weapon's Aiming Sound
 			"NanosWorld::A_DesertEagle_Shot",				-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Pistol",		-- Character's Reloading Animation
-			"NanosWorld::AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
+			"NanosWorld::AM_Mannequin_Sight_Fire_Heavy",		-- Character's Aiming Animation
 			"NanosWorld::SM_DesertEagle_Mag_Empty"			-- Magazine Mesh
 		)
 	end,
@@ -290,7 +290,7 @@ NanosWorldWeapons = {
 			"NanosWorld::A_Rattle",							-- Weapon's Aiming Sound
 			"NanosWorld::A_Shotgun_Shot",					-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Shotgun",		-- Character's Reloading Animation
-			"NanosWorld::AM_Mannequin_Sight_Fire_Shotgun",	-- Character's Aiming Animation
+			"NanosWorld::AM_Mannequin_Sight_Fire_Heavy",	-- Character's Aiming Animation
 			""												-- Magazine Mesh
 		)
 	end,
