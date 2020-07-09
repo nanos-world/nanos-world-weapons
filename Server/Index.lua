@@ -1,4 +1,3 @@
-
 -- Here follows a list with all Weapons we currently have, already configured and ready to spawn, feel free to spawn your own or create your own weapons
 NanosWorldWeapons = {
 	AK47 = function(Location, Rotation)
@@ -54,7 +53,7 @@ NanosWorldWeapons = {
 			1000,					-- Ammo in the Bag
 			30,						-- Clip Capacity
 			25,						-- Base Damage
-			10,						-- Spread
+			15,						-- Spread
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
@@ -96,7 +95,7 @@ NanosWorldWeapons = {
 			1000,					-- Ammo in the Bag
 			30,						-- Clip Capacity
 			30,						-- Base Damage
-			10,						-- Spread
+			15,						-- Spread
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
@@ -104,7 +103,7 @@ NanosWorldWeapons = {
 			Color(10000, 20, 0),	-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -16.6),-- Sight Location
-			Rotator(0, 0, 0),		-- Sight Rotation
+			Rotator(),		-- Sight Rotation
 			Vector(25, 0, 10),		-- Left Hand Location
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-10, 0, 0),		-- Right Hand Offset
@@ -126,7 +125,7 @@ NanosWorldWeapons = {
 			"NanosWorld::SM_GE36_Mag_Empty"				-- Magazine Mesh
 		)
 	end,
-	
+
 	Glock = function(Location, Rotation)
 		return Weapon(
 			Location,
@@ -138,7 +137,7 @@ NanosWorldWeapons = {
 			1000,					-- Ammo in the Bag
 			17,						-- Clip Capacity
 			15,						-- Base Damage
-			30,						-- Spread
+			20,						-- Spread
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			17,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
@@ -180,7 +179,7 @@ NanosWorldWeapons = {
 			1000,					-- Ammo in the Bag
 			7,						-- Clip Capacity
 			45,						-- Base Damage
-			15,						-- Spread
+			65,						-- Spread
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			7,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
@@ -206,7 +205,7 @@ NanosWorldWeapons = {
 			"NanosWorld::A_Rattle",							-- Weapon's Aiming Sound
 			"NanosWorld::A_DesertEagle_Shot",				-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Pistol",		-- Character's Reloading Animation
-			"NanosWorld::AM_Mannequin_Sight_Fire",			-- Character's Aiming Animation
+			"NanosWorld::AM_Mannequin_Sight_Fire_Heavy",	-- Character's Aiming Animation
 			"NanosWorld::SM_DesertEagle_Mag_Empty"			-- Magazine Mesh
 		)
 	end,
@@ -290,7 +289,7 @@ NanosWorldWeapons = {
 			"NanosWorld::A_Rattle",							-- Weapon's Aiming Sound
 			"NanosWorld::A_Shotgun_Shot",					-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Shotgun",		-- Character's Reloading Animation
-			"NanosWorld::AM_Mannequin_Sight_Fire_Shotgun",	-- Character's Aiming Animation
+			"NanosWorld::AM_Mannequin_Sight_Fire_Heavy",	-- Character's Aiming Animation
 			""												-- Magazine Mesh
 		)
 	end,
@@ -306,7 +305,7 @@ NanosWorldWeapons = {
 			1000,					-- Ammo in the Bag
 			30,						-- Clip Capacity
 			10,						-- Base Damage
-			25,						-- Spread
+			30,						-- Spread
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
@@ -315,7 +314,7 @@ NanosWorldWeapons = {
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -16.5),	-- Sight Location
 			Rotator(-2, 0, 0),		-- Sight Rotation
-			Vector(24, 0, 9),	-- Left Hand Location
+			Vector(24, 0, 9),		-- Left Hand Location
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-15, 0, 0),		-- Right Hand Offset
 			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
@@ -351,7 +350,7 @@ NanosWorldWeapons = {
 			35,						-- Spread
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			32,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
-			5000,					-- Max Bullet Distance
+			20000,					-- Max Bullet Distance
 			15000,					-- Bullet Speed (visual only)
 			Color(10000, 20, 0),	-- Bullet Color
 			0.55,					-- Sight's FOV multiplier

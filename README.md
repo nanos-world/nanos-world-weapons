@@ -2,11 +2,11 @@
 Default nanos.world Weapon's Package
 
 # Usage
-Clone this repository into your Packages folder (or just download it and place nanos-world-weapons folder into Packages folder)
+This is a built-in Library already included in nanos.world, to use it, just include ``Package:RequirePackage("NanosWorldWeapons")`` on the top of your scripting.
 
 ```lua
 -- Includes this Package in your Package
-Package:RequirePackage("nanos-world-weapons")
+Package:RequirePackage("NanosWorldWeapons")
 
 -- Spawning the AK47
 local my_ak47 = NanosWorldWeapons.AK47(Vector(1035, 154, 300), Rotator())
@@ -15,7 +15,7 @@ local my_ak47 = NanosWorldWeapons.AK47(Vector(1035, 154, 300), Rotator())
 local my_reddot = Prop(
     Vector(),
     Rotator(), 
-    "NanosWorld/Weapons/Common/Accessories/SM_T4_Sight.SM_T4_Sight", -- Red Dot Static Mesh Path
+    "NanosWorld::SM_T4_Sight", -- Red Dot Static Mesh Path
     2, -- No Collision
     false, -- No Gravity
     false -- No Grabbing
