@@ -1,8 +1,14 @@
 # nanos-world-weapons
 Default nanos.world Weapon's Package
 
-# Usage
+## Usage
 This is a built-in Library already included in nanos.world, to use it, just include ``Package:RequirePackage("NanosWorldWeapons")`` on the top of your scripting.
+
+```lua
+NanosWorldWeapons.AK47(Vector(123, 456, 100), Rotator())
+```
+
+## Full Example
 
 ```lua
 -- Includes this Package in your Package
@@ -34,7 +40,21 @@ my_ak47.SightFOVMultiplier = 0.35
 Weapon:SetSightTransform(Vector(0, 0, -15.9), Rotator(0, 0, 0))
 ```
 
-Note you can use any Static Mesh and attach to the weapon, also you can use any Skeletal Mesh and build you own weapon
+Note you can use any Static Mesh and attach to the weapon, also you can use any Skeletal Mesh and build you own weapon.
+
+## List of all available Weapons in this Package
+
+- AK47
+- AK74U
+- GE36
+- Glock
+- DesertEagle
+- AR4
+- Moss500
+- AP5
+- SMG11
+
+## Images
 
 ![AK47 with reddot](https://i.imgur.com/K8qK3OG.png)
 
