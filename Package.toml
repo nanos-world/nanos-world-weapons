@@ -1,7 +1,7 @@
 # Package Configurations
 [package]
 	# Package Name
-	name =					"Nanos World Default Weapons"
+	name =					"nanos world Default Weapons"
 	# Package Type: 'executable' (normal package) | 'library' (doesn't run - useful for code library)
 	type =					"library"
 	# Whether to force the Custom Map Script to do NOT load
