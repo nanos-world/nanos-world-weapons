@@ -1,9 +1,9 @@
 -- Here follows a list with all Weapons we currently have, already configured and ready to spawn, feel free to spawn your own or create your own weapons
 NanosWorldWeapons = {
-	AK47 = function(Location, Rotation)
+	AK47 = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_AK47",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
@@ -42,10 +42,10 @@ NanosWorldWeapons = {
 		)
 	end,
 
-	AK74U = function(Location, Rotation)
+	AK74U = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_AK74U",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
@@ -84,10 +84,10 @@ NanosWorldWeapons = {
 		)
 	end,
 
-	GE36 = function(Location, Rotation)
+	GE36 = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_GE36",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
@@ -126,10 +126,10 @@ NanosWorldWeapons = {
 		)
 	end,
 
-	Glock = function(Location, Rotation)
+	Glock = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_Glock",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
@@ -168,10 +168,10 @@ NanosWorldWeapons = {
 		)
 	end,
 
-	DesertEagle = function(Location, Rotation)
+	DesertEagle = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_DesertEagle",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
@@ -210,10 +210,10 @@ NanosWorldWeapons = {
 		)
 	end,
 
-	AR4 = function(Location, Rotation)
+	AR4 = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_AR4",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
@@ -252,10 +252,10 @@ NanosWorldWeapons = {
 		)
 	end,
 
-	Moss500 = function(Location, Rotation)
+	Moss500 = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_Moss500",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
@@ -294,10 +294,10 @@ NanosWorldWeapons = {
 		)
 	end,
 
-	AP5 = function(Location, Rotation)
+	AP5 = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_AP5",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
@@ -336,10 +336,10 @@ NanosWorldWeapons = {
 		)
 	end,
 
-	SMG11 = function(Location, Rotation)
+	SMG11 = function(location, rotation)
 		return Weapon(
-			Location,
-			Rotation,
+			location or Vector(),
+			rotation or Rotator(),
 			"NanosWorld::SK_SMG11",	-- Model
 			0,						-- Collision (Normal)
 			true,					-- Gravity Enabled
