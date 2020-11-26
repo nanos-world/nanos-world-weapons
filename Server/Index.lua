@@ -15,8 +15,8 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(20, 10000, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(1.3, 10, 0),		-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -14.85),	-- Sight Location
 			Rotator(-1, 0, 0),		-- Sight Rotation
@@ -57,8 +57,8 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(10000, 20, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(10, 5.8, 0),		-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -16),		-- Sight Location
 			Rotator(-3, 0, 0),		-- Sight Rotation
@@ -99,11 +99,11 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(10000, 20, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(10, 5.8, 0),		-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
-			Vector(0, 0, -16.6),-- Sight Location
-			Rotator(),		-- Sight Rotation
+			Vector(0, 0, -16.6),	-- Sight Location
+			Rotator(),				-- Sight Rotation
 			Vector(25, 0, 10),		-- Left Hand Location
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-10, 0, 0),		-- Right Hand Offset
@@ -141,8 +141,8 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			17,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(20, 10000, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(1.3, 10, 0),		-- Bullet Color
 			0.6,					-- Sight's FOV multiplier
 			Vector(0, 0, -8.5),		-- Sight Location
 			Rotator(-0.5, 0, 0),	-- Sight Rotation
@@ -183,8 +183,8 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			7,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(20, 10000, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(1.3, 10, 0),		-- Bullet Color
 			0.6,					-- Sight's FOV multiplier
 			Vector(0, 0, -11.5),	-- Sight Location
 			Rotator(-0.6, 0, 0),	-- Sight Rotation
@@ -225,8 +225,8 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(10000, 20, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(10, 5.8, 0),		-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -17.6),	-- Sight Location
 			Rotator(-0.2, 0, 0),	-- Sight Rotation
@@ -267,8 +267,8 @@ NanosWorldWeapons = {
 			6,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			1,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			10000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(10000, 20, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(10, 5.8, 0),		-- Bullet Color
 			0.75,					-- Sight's FOV multiplier
 			Vector(0, 0, -12.5),	-- Sight Location
 			Rotator(-1, 0, 0),		-- Sight Rotation
@@ -309,8 +309,8 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(10000, 20, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(10, 5.8, 0),		-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -16.5),	-- Sight Location
 			Rotator(-2, 0, 0),		-- Sight Rotation
@@ -351,8 +351,8 @@ NanosWorldWeapons = {
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			32,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
-			15000,					-- Bullet Speed (visual only)
-			Color(10000, 20, 0),	-- Bullet Color
+			30000,					-- Bullet Speed (visual only)
+			Color(10, 5.8, 0),		-- Bullet Color
 			0.55,					-- Sight's FOV multiplier
 			Vector(0, 0, -14.75),	-- Sight Location
 			Rotator(-6.43, 0, 0),	-- Sight Rotation
