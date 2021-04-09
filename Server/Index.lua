@@ -16,14 +16,14 @@ NanosWorldWeapons = {
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
 			20000,					-- Bullet Speed (visual only)
-			Color(13, 100, 0),		-- Bullet Color
+			Color(100, 58, 0),		-- Bullet Color
 			0.5,					-- Sight's FOV multiplier
 			Vector(0, 0, -14.85),	-- Sight Location
 			Rotator(-1, 0, 0),		-- Sight Rotation
 			Vector(26, 0, 8.5),		-- Left Hand Location
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-10, 0, 0),		-- Right Hand Offset
-			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.DoubleHandedWeapon,
 			0.15,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
@@ -38,7 +38,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_AK47_Shot",								-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Rifle",				-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",					-- Character's Aiming Animation
-			"NanosWorld::SM_AK47_Mag_Empty"							-- Magazine Mesh
+			"NanosWorld::SM_AK47_Mag_Empty",						-- Magazine Mesh
+			CrosshairType.Regular
 		)
 	end,
 
@@ -65,7 +66,7 @@ NanosWorldWeapons = {
 			Vector(25, 0, 8.5),		-- Left Hand Location
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-10, 0, 0),		-- Right Hand Offset
-			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.DoubleHandedWeapon,
 			0.15,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
@@ -80,7 +81,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_AK47_Shot",								-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Rifle",				-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",					-- Character's Aiming Animation
-			"NanosWorld::SM_AK74U_Mag_Empty"						-- Magazine Mesh
+			"NanosWorld::SM_AK74U_Mag_Empty",						-- Magazine Mesh
+			CrosshairType.Regular
 		)
 	end,
 
@@ -107,7 +109,7 @@ NanosWorldWeapons = {
 			Vector(25, 0, 10),		-- Left Hand Location
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-10, 0, 0),		-- Right Hand Offset
-			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.DoubleHandedWeapon,
 			0.1,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
@@ -122,7 +124,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_Rifle_Shot",					-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Rifle",	-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",		-- Character's Aiming Animation
-			"NanosWorld::SM_GE36_Mag_Empty"				-- Magazine Mesh
+			"NanosWorld::SM_GE36_Mag_Empty",			-- Magazine Mesh
+			CrosshairType.RegularX
 		)
 	end,
 
@@ -149,7 +152,7 @@ NanosWorldWeapons = {
 			Vector(2, -1.5, 0),		-- Left Hand Location
 			Rotator(0, 50, 130),	-- Left Hand Rotation
 			Vector(-30, 0, 5),		-- Right Hand Offset
-			0,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.SingleHandedWeapon,
 			0.2,						-- Cadence
 			false,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
@@ -164,7 +167,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_Glock_Shot",							-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Pistol",			-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",				-- Character's Aiming Animation
-			"NanosWorld::SM_Glock_Mag_Empty"					-- Magazine Mesh
+			"NanosWorld::SM_Glock_Mag_Empty",					-- Magazine Mesh
+			CrosshairType.Circle
 		)
 	end,
 
@@ -191,7 +195,7 @@ NanosWorldWeapons = {
 			Vector(2, -1.5, 0),		-- Left Hand Location
 			Rotator(0, 50, 130),	-- Left Hand Rotation
 			Vector(-30, 0, 5),		-- Right Hand Offset
-			0,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.SingleHandedWeapon,
 			0.45,					-- Cadence
 			false,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
@@ -206,7 +210,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_DesertEagle_Shot",				-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Pistol",		-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire_Heavy",	-- Character's Aiming Animation
-			"NanosWorld::SM_DesertEagle_Mag_Empty"			-- Magazine Mesh
+			"NanosWorld::SM_DesertEagle_Mag_Empty",			-- Magazine Mesh
+			CrosshairType.Dot
 		)
 	end,
 
@@ -233,7 +238,7 @@ NanosWorldWeapons = {
 			Vector(25, 0, 10),		-- Left Hand Location
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-12.5, 0, 0),	-- Right Hand Offset
-			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.DoubleHandedWeapon,
 			0.1,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
@@ -248,7 +253,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_M4A1_Shot",					-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Rifle",	-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",		-- Character's Aiming Animation
-			"NanosWorld::SM_AR4_Mag_Empty"				-- Magazine Mesh
+			"NanosWorld::SM_AR4_Mag_Empty",				-- Magazine Mesh
+			CrosshairType.Submachine
 		)
 	end,
 
@@ -275,11 +281,11 @@ NanosWorldWeapons = {
 			Vector(38, 2, 2.5),		-- Left Hand Location
 			Rotator(-5, 0, -180),	-- Left Hand Rotation
 			Vector(-5, 0, 0),		-- Right Hand Offset
-			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.DoubleHandedWeapon,
 			1,						-- Cadence
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
-			"",												-- Bullet Trail Particle
+			"NanosWorld::P_Bullet_Trail",					-- Bullet Trail Particle
 			"NanosWorld::P_Weapon_BarrelSmoke",				-- Barrel Particle
 			"NanosWorld::P_Weapon_Shells_12Gauge",			-- Shells Particle
 			"NanosWorld::A_Shotgun_Dry",					-- Weapon's Dry Sound
@@ -290,7 +296,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_Shotgun_Shot",					-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Shotgun",		-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire_Heavy",	-- Character's Aiming Animation
-			""												-- Magazine Mesh
+			"",												-- Magazine Mesh
+			CrosshairType.Shotgun
 		)
 	end,
 
@@ -317,7 +324,7 @@ NanosWorldWeapons = {
 			Vector(24, 0, 9),		-- Left Hand Location
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-15, 0, 0),		-- Right Hand Offset
-			1,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.DoubleHandedWeapon,
 			0.1,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
@@ -332,7 +339,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_LightMachine_Shot",			-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Rifle",	-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",		-- Character's Aiming Animation
-			"NanosWorld::SM_AP5_Mag_Empty"				-- Magazine Mesh
+			"NanosWorld::SM_AP5_Mag_Empty",				-- Magazine Mesh
+			CrosshairType.Submachine
 		)
 	end,
 
@@ -359,7 +367,7 @@ NanosWorldWeapons = {
 			Vector(-3, 0, 0),		-- Left Hand Location
 			Rotator(0, 25, 157.5),	-- Left Hand Rotation
 			Vector(-35, 0, 0),		-- Right Hand Offset
-			0,						-- Handling Mode (0. SingleHandedWeapon, 1. DoubleHandedWeapon, 2. SingleHandedMelee, 3. DoubleHandedMelee, 4. Throwable, 5. Torch)
+			HandlingMode.SingleHandedWeapon,
 			0.1,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
@@ -374,7 +382,8 @@ NanosWorldWeapons = {
 			"NanosWorld::A_SMG_Shot",					-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Pistol",	-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",		-- Character's Aiming Animation
-			"NanosWorld::SM_AP5_Mag_Empty"				-- Magazine Mesh
+			"NanosWorld::SM_AP5_Mag_Empty",				-- Magazine Mesh
+			CrosshairType.Submachine
 		)
 	end
 }
