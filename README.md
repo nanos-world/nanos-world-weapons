@@ -43,6 +43,7 @@ Note you can use any Static Mesh and attach to the weapon, also you can use any 
 - Moss500
 - AP5
 - SMG11
+- ASVal
 
 ## Images
 

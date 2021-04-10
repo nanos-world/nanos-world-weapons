@@ -11,7 +11,7 @@ NanosWorldWeapons = {
 			1000,					-- Ammo in the Bag
 			30,						-- Clip Capacity
 			30,						-- Base Damage
-			20,						-- Spread
+			30,						-- Spread
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			30,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
@@ -24,7 +24,7 @@ NanosWorldWeapons = {
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-10, 0, 0),		-- Right Hand Offset
 			HandlingMode.DoubleHandedWeapon,
-			0.15,					-- Cadence (1 shot at each 0.15seconds)
+			0.1,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld::P_Bullet_Trail",							-- Bullet Trail Particle
@@ -67,7 +67,7 @@ NanosWorldWeapons = {
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-10, 0, 0),		-- Right Hand Offset
 			HandlingMode.DoubleHandedWeapon,
-			0.15,					-- Cadence (1 shot at each 0.15seconds)
+			0.085,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld::P_Bullet_Trail",							-- Bullet Trail Particle
@@ -78,7 +78,7 @@ NanosWorldWeapons = {
 			"NanosWorld::A_Rifle_Unload",							-- Weapon's Unload Sound
 			"NanosWorld::A_AimZoom",								-- Weapon's Zooming Sound
 			"NanosWorld::A_Rattle",									-- Weapon's Aiming Sound
-			"NanosWorld::A_AK47_Shot",								-- Weapon's Shot Sound
+			"NanosWorld::A_AK74U_Shot",								-- Weapon's Shot Sound
 			"NanosWorld::AM_Mannequin_Reload_Rifle",				-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",					-- Character's Aiming Animation
 			"NanosWorld::SM_AK74U_Mag_Empty",						-- Magazine Mesh
@@ -110,7 +110,7 @@ NanosWorldWeapons = {
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-10, 0, 0),		-- Right Hand Offset
 			HandlingMode.DoubleHandedWeapon,
-			0.1,					-- Cadence (1 shot at each 0.15seconds)
+			0.08,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld::P_Bullet_Trail",				-- Bullet Trail Particle
@@ -153,7 +153,7 @@ NanosWorldWeapons = {
 			Rotator(0, 50, 130),	-- Left Hand Rotation
 			Vector(-30, 0, 5),		-- Right Hand Offset
 			HandlingMode.SingleHandedWeapon,
-			0.2,						-- Cadence
+			0.15,					-- Cadence
 			false,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld::P_Bullet_Trail",						-- Bullet Trail Particle
@@ -183,7 +183,7 @@ NanosWorldWeapons = {
 			1000,					-- Ammo in the Bag
 			7,						-- Clip Capacity
 			45,						-- Base Damage
-			65,						-- Spread
+			70,						-- Spread
 			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
 			7,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
 			20000,					-- Max Bullet Distance
@@ -196,7 +196,7 @@ NanosWorldWeapons = {
 			Rotator(0, 50, 130),	-- Left Hand Rotation
 			Vector(-30, 0, 5),		-- Right Hand Offset
 			HandlingMode.SingleHandedWeapon,
-			0.45,					-- Cadence
+			0.225,					-- Cadence
 			false,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld::P_Bullet_Trail",					-- Bullet Trail Particle
@@ -254,7 +254,7 @@ NanosWorldWeapons = {
 			"NanosWorld::AM_Mannequin_Reload_Rifle",	-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire",		-- Character's Aiming Animation
 			"NanosWorld::SM_AR4_Mag_Empty",				-- Magazine Mesh
-			CrosshairType.Submachine
+			CrosshairType.Regular
 		)
 	end,
 
@@ -282,7 +282,7 @@ NanosWorldWeapons = {
 			Rotator(-5, 0, -180),	-- Left Hand Rotation
 			Vector(-5, 0, 0),		-- Right Hand Offset
 			HandlingMode.DoubleHandedWeapon,
-			1,						-- Cadence
+			0.9,					-- Cadence
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld::P_Bullet_Trail",					-- Bullet Trail Particle
@@ -325,7 +325,7 @@ NanosWorldWeapons = {
 			Rotator(0, 60, 90),		-- Left Hand Rotation
 			Vector(-15, 0, 0),		-- Right Hand Offset
 			HandlingMode.DoubleHandedWeapon,
-			0.1,					-- Cadence (1 shot at each 0.15seconds)
+			0.075,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld::P_Bullet_Trail",				-- Bullet Trail Particle
@@ -368,7 +368,7 @@ NanosWorldWeapons = {
 			Rotator(0, 25, 157.5),	-- Left Hand Rotation
 			Vector(-35, 0, 0),		-- Right Hand Offset
 			HandlingMode.SingleHandedWeapon,
-			0.1,					-- Cadence (1 shot at each 0.15seconds)
+			0.075,					-- Cadence (1 shot at each 0.15seconds)
 			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
 			false,					-- Need to release to Fire (common to Bows)
 			"NanosWorld::P_Bullet_Trail",				-- Bullet Trail Particle
@@ -384,6 +384,49 @@ NanosWorldWeapons = {
 			"NanosWorld::AM_Mannequin_Sight_Fire",		-- Character's Aiming Animation
 			"NanosWorld::SM_AP5_Mag_Empty",				-- Magazine Mesh
 			CrosshairType.Submachine
+		)
+	end,
+
+	ASVal = function(location, rotation)
+		return Weapon(
+			location or Vector(),
+			rotation or Rotator(),
+			"NanosWorld::SK_ASVal", -- Model
+			0,						-- Collision (Normal)
+			true,					-- Gravity Enabled
+			15,						-- Ammo in the Clip
+			1000,					-- Ammo in the Bag
+			15,						-- Clip Capacity
+			20,						-- Base Damage
+			25,						-- Spread
+			1,						-- Bullet Count (1 for common weapons, > 1 for shotguns)
+			15,						-- Ammo to Reload (Ammo Clip for common weapons, 1 for shotguns)
+			20000,					-- Max Bullet Distance
+			20000,					-- Bullet Speed (visual only)
+			Color(58, 100, 0),		-- Bullet Color
+			0.55,					-- Sight's FOV multiplier
+			Vector(0, 0, -14),		-- Sight Location
+			Rotator(-1, 0, 0),		-- Sight Rotation
+			Vector(25, 0.5, 7),		-- Left Hand Location
+			Rotator(0, 50, 90),		-- Left Hand Rotation
+			Vector(-12, 0, 0),		-- Right Hand Offset
+			HandlingMode.DoubleHandedWeapon,
+			0.07,					-- Cadence (1 shot at each 0.15seconds)
+			true,					-- Can Hold Use (keep pressing to keep firing, common to automatic weapons)
+			false,					-- Need to release to Fire (common to Bows)
+			"NanosWorld::P_Bullet_Trail",				-- Bullet Trail Particle
+			"NanosWorld::P_Weapon_BarrelSmoke",			-- Barrel Particle
+			"NanosWorld::P_Weapon_Shells_556x45",		-- Shells Particle
+			"NanosWorld::A_Rifle_Dry",					-- Weapon's Dry Sound
+			"NanosWorld::A_Rifle_Load",					-- Weapon's Load Sound
+			"NanosWorld::A_Rifle_Unload",				-- Weapon's Unload Sound
+			"NanosWorld::A_AimZoom",					-- Weapon's Zooming Sound
+			"NanosWorld::A_Rattle",						-- Weapon's Aiming Sound
+			"NanosWorld::A_ASVal_Shot",					-- Weapon's Shot Sound
+			"NanosWorld::AM_Mannequin_Reload_Rifle",	-- Character's Reloading Animation
+			"NanosWorld::AM_Mannequin_Sight_Fire",		-- Character's Aiming Animation
+			"NanosWorld::SM_ASVal_Mag_Empty",			-- Magazine Mesh
+			CrosshairType.Regular
 		)
 	end
 }
