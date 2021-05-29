@@ -211,7 +211,7 @@ NanosWorldWeapons = {
 			"NanosWorld::AM_Mannequin_Reload_Pistol",		-- Character's Reloading Animation
 			"NanosWorld::AM_Mannequin_Sight_Fire_Heavy",	-- Character's Aiming Animation
 			"NanosWorld::SM_DesertEagle_Mag_Empty",			-- Magazine Mesh
-			CrosshairType.Dot
+			CrosshairType.Tee
 		)
 	end,
 
