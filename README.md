@@ -2,7 +2,7 @@
 Default nanos.world Weapon's Package
 
 ## Usage
-This is a built-in Library already included in nanos.world, to use it, just include ``Package:RequirePackage("NanosWorldWeapons")`` on the top of your scripting.
+This is a built-in Library already included in nanos.world, to use it, just include ``Package:RequirePackage("NanosWorldWeapons")`` on the top of your scripting. You do not need to clone or download this package to use it.
 
 ```lua
 NanosWorldWeapons.AK47(Vector(123, 456, 100), Rotator())
