@@ -1,7 +1,7 @@
 -- Here follows a list with all Weapons we currently have, already configured and ready to spawn, feel free to spawn your own or create your own weapons
 NanosWorldWeapons = {
 	AK47 = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_AK47")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK47")
 
 		weapon:SetAmmoSettings(30, 1000)
 		weapon:SetDamage(30)
@@ -13,28 +13,28 @@ NanosWorldWeapons = {
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.1)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_762x39")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_762x39")
 
-		weapon:SetSoundDry("NanosWorld::A_Rifle_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_Rifle_Load")
-		weapon:SetSoundUnload("NanosWorld::A_Rifle_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_AK47_Shot")
+		weapon:SetSoundDry("nanos-world::A_Rifle_Dry")
+		weapon:SetSoundLoad("nanos-world::A_Rifle_Load")
+		weapon:SetSoundUnload("nanos-world::A_Rifle_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_AK47_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Rifle")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Rifle")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_AK47_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_AK47_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.Regular)
 
 		return weapon
 	end,
 
 	AK74U = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_AK74U")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK74U")
 
 		weapon:SetAmmoSettings(30, 1000)
 		weapon:SetDamage(25)
@@ -46,28 +46,28 @@ NanosWorldWeapons = {
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.085)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_545x39")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_545x39")
 
-		weapon:SetSoundDry("NanosWorld::A_Rifle_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_Rifle_Load")
-		weapon:SetSoundUnload("NanosWorld::A_Rifle_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_AK74U_Shot")
+		weapon:SetSoundDry("nanos-world::A_Rifle_Dry")
+		weapon:SetSoundLoad("nanos-world::A_Rifle_Load")
+		weapon:SetSoundUnload("nanos-world::A_Rifle_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_AK74U_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Rifle")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Rifle")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_AK74U_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_AK74U_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.Regular)
 
 		return weapon
 	end,
 
 	GE36 = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_GE36")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_GE36")
 
 		weapon:SetAmmoSettings(30, 1000)
 		weapon:SetDamage(30)
@@ -79,28 +79,28 @@ NanosWorldWeapons = {
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.125)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_556x45")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_556x45")
 
-		weapon:SetSoundDry("NanosWorld::A_Rifle_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_Rifle_Load")
-		weapon:SetSoundUnload("NanosWorld::A_Rifle_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_Rifle_Shot")
+		weapon:SetSoundDry("nanos-world::A_Rifle_Dry")
+		weapon:SetSoundLoad("nanos-world::A_Rifle_Load")
+		weapon:SetSoundUnload("nanos-world::A_Rifle_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_Rifle_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Rifle")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Rifle")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_GE36_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_GE36_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.RegularX)
 
 		return weapon
 	end,
 
 	Glock = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_Glock")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_Glock")
 
 		weapon:SetAmmoSettings(17, 1000)
 		weapon:SetDamage(15)
@@ -115,28 +115,28 @@ NanosWorldWeapons = {
 		weapon:SetSightFOVMultiplier(0.6)
 		weapon:SetUsageSettings(false, false)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_9mm")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_9mm")
 
-		weapon:SetSoundDry("NanosWorld::A_Pistol_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_Pistol_Load")
-		weapon:SetSoundUnload("NanosWorld::A_Pistol_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_Glock_Shot")
+		weapon:SetSoundDry("nanos-world::A_Pistol_Dry")
+		weapon:SetSoundLoad("nanos-world::A_Pistol_Load")
+		weapon:SetSoundUnload("nanos-world::A_Pistol_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_Glock_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Pistol")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Pistol")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_Glock_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_Glock_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.Circle)
 
 		return weapon
 	end,
 
 	DesertEagle = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_DesertEagle")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_DesertEagle")
 
 		weapon:SetAmmoSettings(7, 1000)
 		weapon:SetDamage(45)
@@ -151,28 +151,28 @@ NanosWorldWeapons = {
 		weapon:SetSightFOVMultiplier(0.6)
 		weapon:SetUsageSettings(false, false)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_45ap")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_45ap")
 
-		weapon:SetSoundDry("NanosWorld::A_Pistol_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_Pistol_Load")
-		weapon:SetSoundUnload("NanosWorld::A_Pistol_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_DesertEagle_Shot")
+		weapon:SetSoundDry("nanos-world::A_Pistol_Dry")
+		weapon:SetSoundLoad("nanos-world::A_Pistol_Load")
+		weapon:SetSoundUnload("nanos-world::A_Pistol_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_DesertEagle_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire_Heavy")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Pistol")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire_Heavy")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Pistol")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_DesertEagle_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_DesertEagle_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.Tee)
 
 		return weapon
 	end,
 
 	AR4 = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_AR4")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_AR4")
 
 		weapon:SetAmmoSettings(30, 1000)
 		weapon:SetDamage(30)
@@ -184,28 +184,28 @@ NanosWorldWeapons = {
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.1)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_556x45")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_556x45")
 
-		weapon:SetSoundDry("NanosWorld::A_Rifle_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_Rifle_Load")
-		weapon:SetSoundUnload("NanosWorld::A_Rifle_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_M4A1_Shot")
+		weapon:SetSoundDry("nanos-world::A_Rifle_Dry")
+		weapon:SetSoundLoad("nanos-world::A_Rifle_Load")
+		weapon:SetSoundUnload("nanos-world::A_Rifle_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_M4A1_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Rifle")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Rifle")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_AR4_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_AR4_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.Regular)
 
 		return weapon
 	end,
 
 	Moss500 = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_Moss500")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_Moss500")
 
 		weapon:SetAmmoSettings(6, 1000, 1)
 		weapon:SetDamage(30)
@@ -219,18 +219,18 @@ NanosWorldWeapons = {
 
 		weapon:SetSightFOVMultiplier(0.75)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_12Gauge")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_12Gauge")
 
-		weapon:SetSoundDry("NanosWorld::A_Shotgun_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_Shotgun_Load_Bullet")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_Shotgun_Shot")
+		weapon:SetSoundDry("nanos-world::A_Shotgun_Dry")
+		weapon:SetSoundLoad("nanos-world::A_Shotgun_Load_Bullet")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_Shotgun_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire_Heavy")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Shotgun")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire_Heavy")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Shotgun")
 
 		weapon:SetCrosshairSetting(CrosshairType.Shotgun)
 
@@ -238,7 +238,7 @@ NanosWorldWeapons = {
 	end,
 
 	AP5 = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_AP5")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_AP5")
 
 		weapon:SetAmmoSettings(30, 1000)
 		weapon:SetDamage(15)
@@ -250,28 +250,28 @@ NanosWorldWeapons = {
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.075)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_9x18")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_9x18")
 
-		weapon:SetSoundDry("NanosWorld::A_SMG_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_SMG_Load")
-		weapon:SetSoundUnload("NanosWorld::A_SMG_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_LightMachine_Shot")
+		weapon:SetSoundDry("nanos-world::A_SMG_Dry")
+		weapon:SetSoundLoad("nanos-world::A_SMG_Load")
+		weapon:SetSoundUnload("nanos-world::A_SMG_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_LightMachine_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Rifle")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Rifle")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_AP5_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_AP5_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.Submachine)
 
 		return weapon
 	end,
 
 	SMG11 = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_SMG11")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_SMG11")
 
 		weapon:SetAmmoSettings(32, 1000)
 		weapon:SetDamage(15)
@@ -285,28 +285,28 @@ NanosWorldWeapons = {
 
 		weapon:SetSightFOVMultiplier(0.55)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_9x18")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_9x18")
 
-		weapon:SetSoundDry("NanosWorld::A_SMG_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_SMG_Load")
-		weapon:SetSoundUnload("NanosWorld::A_SMG_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_SMG_Shot")
+		weapon:SetSoundDry("nanos-world::A_SMG_Dry")
+		weapon:SetSoundLoad("nanos-world::A_SMG_Load")
+		weapon:SetSoundUnload("nanos-world::A_SMG_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_SMG_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Pistol")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Pistol")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_AP5_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_AP5_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.Submachine)
 
 		return weapon
 	end,
 
 	ASVal = function(location, rotation)
-		local weapon = Weapon(location or Vector(), rotation or Rotator(), "NanosWorld::SK_ASVal")
+		local weapon = Weapon(location or Vector(), rotation or Rotator(), "nanos-world::SK_ASVal")
 
 		weapon:SetAmmoSettings(20, 1000)
 		weapon:SetDamage(20)
@@ -320,21 +320,21 @@ NanosWorldWeapons = {
 
 		weapon:SetSightFOVMultiplier(0.55)
 
-		weapon:SetParticlesBulletTrail("NanosWorld::P_Bullet_Trail")
-		weapon:SetParticlesBarrel("NanosWorld::P_Weapon_BarrelSmoke")
-		weapon:SetParticlesShells("NanosWorld::P_Weapon_Shells_556x45")
+		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
+		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
+		weapon:SetParticlesShells("nanos-world::P_Weapon_Shells_556x45")
 
-		weapon:SetSoundDry("NanosWorld::A_Rifle_Dry")
-		weapon:SetSoundLoad("NanosWorld::A_Rifle_Load")
-		weapon:SetSoundUnload("NanosWorld::A_Rifle_Unload")
-		weapon:SetSoundZooming("NanosWorld::A_AimZoom")
-		weapon:SetSoundAim("NanosWorld::A_Rattle")
-		weapon:SetSoundFire("NanosWorld::A_ASVal_Shot")
+		weapon:SetSoundDry("nanos-world::A_Rifle_Dry")
+		weapon:SetSoundLoad("nanos-world::A_Rifle_Load")
+		weapon:SetSoundUnload("nanos-world::A_Rifle_Unload")
+		weapon:SetSoundZooming("nanos-world::A_AimZoom")
+		weapon:SetSoundAim("nanos-world::A_Rattle")
+		weapon:SetSoundFire("nanos-world::A_ASVal_Shot")
 
-		weapon:SetAnimationCharacterFire("NanosWorld::AM_Mannequin_Sight_Fire")
-		weapon:SetAnimationReload("NanosWorld::AM_Mannequin_Reload_Rifle")
+		weapon:SetAnimationCharacterFire("nanos-world::AM_Mannequin_Sight_Fire")
+		weapon:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Rifle")
 
-		weapon:SetMagazineMesh("NanosWorld::SM_ASVal_Mag_Empty")
+		weapon:SetMagazineMesh("nanos-world::SM_ASVal_Mag_Empty")
 		weapon:SetCrosshairSetting(CrosshairType.Regular)
 
 		return weapon
