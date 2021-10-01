@@ -44,6 +44,17 @@ Note you can use any Static Mesh and attach to the weapon, also you can use any 
 - AP5
 - SMG11
 - ASVal
+- M1911
+- Makarov
+- UMP45
+- P90
+- GE3
+- AK5C
+- SA80
+- Ithaca37
+- Rem870
+- SPAS12
+- AWP
 
 ## Images
 
