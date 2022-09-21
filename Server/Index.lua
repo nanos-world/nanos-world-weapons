@@ -13,7 +13,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.1)
-		weapon:SetWallbangSettings(50, 0.75)
+		weapon:SetWallbangSettings(200, 0.75)
 
 		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
 		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
@@ -49,7 +49,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.085)
-		weapon:SetWallbangSettings(50, 0.50)
+		weapon:SetWallbangSettings(200, 0.50)
 
 		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
 		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
@@ -85,7 +85,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.125)
-		weapon:SetWallbangSettings(50, 0.5)
+		weapon:SetWallbangSettings(200, 0.5)
 
 		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
 		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
@@ -121,7 +121,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-25, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.SingleHandedWeapon)
 		weapon:SetCadence(0.15)
-		weapon:SetWallbangSettings(40, 0.25)
+		weapon:SetWallbangSettings(160, 0.25)
 
 		weapon:SetSightFOVMultiplier(0.6)
 		weapon:SetUsageSettings(false, false)
@@ -160,7 +160,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-25, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.SingleHandedWeapon)
 		weapon:SetCadence(0.225)
-		weapon:SetWallbangSettings(100, 0.8)
+		weapon:SetWallbangSettings(400, 0.8)
 
 		weapon:SetSightFOVMultiplier(0.6)
 		weapon:SetUsageSettings(false, false)
@@ -199,7 +199,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.1)
-		weapon:SetWallbangSettings(50, 0.6)
+		weapon:SetWallbangSettings(200, 0.6)
 
 		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
 		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
@@ -235,7 +235,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(0, 0, 3))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.9)
-		weapon:SetWallbangSettings(25, 0.25)
+		weapon:SetWallbangSettings(100, 0.25)
 
 		weapon:SetSightFOVMultiplier(0.75)
 
@@ -271,7 +271,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.075)
-		weapon:SetWallbangSettings(50, 0.5)
+		weapon:SetWallbangSettings(200, 0.5)
 
 		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
 		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
@@ -307,7 +307,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-35, 0, -5))
 		weapon:SetHandlingMode(HandlingMode.SingleHandedWeapon)
 		weapon:SetCadence(0.075)
-		weapon:SetWallbangSettings(50, 0.25)
+		weapon:SetWallbangSettings(200, 0.25)
 
 		weapon:SetSightFOVMultiplier(0.55)
 
@@ -345,7 +345,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-12.5, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.07)
-		weapon:SetWallbangSettings(50, 0.5)
+		weapon:SetWallbangSettings(200, 0.5)
 
 		weapon:SetSightFOVMultiplier(0.55)
 
@@ -383,7 +383,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-25, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.SingleHandedWeapon)
 		weapon:SetCadence(0.15)
-		weapon:SetWallbangSettings(40, 0.25)
+		weapon:SetWallbangSettings(160, 0.25)
 
 		weapon:SetSightFOVMultiplier(0.6)
 		weapon:SetUsageSettings(false, false)
@@ -422,7 +422,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-25, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.SingleHandedWeapon)
 		weapon:SetCadence(0.15)
-		weapon:SetWallbangSettings(40, 0.25)
+		weapon:SetWallbangSettings(160, 0.25)
 
 		weapon:SetSightFOVMultiplier(0.6)
 		weapon:SetUsageSettings(false, false)
@@ -461,7 +461,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.1)
-		weapon:SetWallbangSettings(50, 0.5)
+		weapon:SetWallbangSettings(200, 0.5)
 
 		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
 		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
@@ -497,7 +497,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-20, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.07)
-		weapon:SetWallbangSettings(50, 0.5)
+		weapon:SetWallbangSettings(200, 0.5)
 
 		weapon:SetParticlesBulletTrail("nanos-world::P_Bullet_Trail")
 		weapon:SetParticlesBarrel("nanos-world::P_Weapon_BarrelSmoke")
@@ -532,7 +532,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.09)
-		weapon:SetWallbangSettings(50, 0.5)
+		weapon:SetWallbangSettings(200, 0.5)
 
 		weapon:SetSightFOVMultiplier(0.5)
 
@@ -570,7 +570,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 0))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.09)
-		weapon:SetWallbangSettings(50, 0.5)
+		weapon:SetWallbangSettings(200, 0.5)
 
 		weapon:SetSightFOVMultiplier(0.5)
 
@@ -608,7 +608,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-20, 0, -3))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.09)
-		weapon:SetWallbangSettings(50, 0.5)
+		weapon:SetWallbangSettings(200, 0.5)
 
 		weapon:SetSightFOVMultiplier(0.5)
 
@@ -646,7 +646,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(0, 0, 5))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.9)
-		weapon:SetWallbangSettings(25, 0.25)
+		weapon:SetWallbangSettings(400, 0.25)
 
 		weapon:SetSightFOVMultiplier(0.75)
 
@@ -682,7 +682,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(0, 0, 5))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.9)
-		weapon:SetWallbangSettings(25, 0.25)
+		weapon:SetWallbangSettings(400, 0.25)
 
 		weapon:SetSightFOVMultiplier(0.75)
 
@@ -718,7 +718,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(0, 0, 4))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(0.6)
-		weapon:SetWallbangSettings(25, 0.25)
+		weapon:SetWallbangSettings(400, 0.25)
 
 		weapon:SetSightFOVMultiplier(0.75)
 
@@ -754,7 +754,7 @@ NanosWorldWeapons = {
 		weapon:SetRightHandOffset(Vector(-10, 0, 2))
 		weapon:SetHandlingMode(HandlingMode.DoubleHandedWeapon)
 		weapon:SetCadence(2)
-		weapon:SetWallbangSettings(50, 0.75)
+		weapon:SetWallbangSettings(200, 0.75)
 
 		weapon:SetSightFOVMultiplier(0.1)
 
