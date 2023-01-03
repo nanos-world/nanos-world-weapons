@@ -209,7 +209,7 @@ end
 
 NanosWorldWeapons.ColtPython = Weapon.Inherit("ColtPython")
 NanosWorldWeapons.ColtPython.name = "Colt Python"
-NanosWorldWeapons.ColtPython.image = "assets://NanosWorld/Thumbnails/SK_ColtPython.jpg"
+NanosWorldWeapons.ColtPython.image = "assets://NanosWorld/Thumbnails/SK_Colt_Python.jpg"
 NanosWorldWeapons.ColtPython.category= "vintage"
 
 function NanosWorldWeapons.ColtPython:Constructor(location, rotation)
