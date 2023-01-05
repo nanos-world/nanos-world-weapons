@@ -1,4 +1,5 @@
 NanosWorldWeapons = {}
+Package.Export("NanosWorldWeapons", NanosWorldWeapons)
 
 NanosWorldWeapons.AK47 = Weapon.Inherit("AK47")
 NanosWorldWeapons.AK47.name = "AK-47"
