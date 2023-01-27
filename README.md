@@ -9,8 +9,6 @@ This is a Package which contains a bunch of weapons Classes defined using meshes
 AK47(Vector(123, 456, 100), Rotator())
 ```
 
-Also, all weapons classes are available in a global table called `NanosWorldWeapons`.
-
 
 ## Full Example
 
