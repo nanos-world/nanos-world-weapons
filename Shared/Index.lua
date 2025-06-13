@@ -1133,7 +1133,7 @@ function NanosWorldWeapons.AWP:Constructor(location, rotation)
 	self:SetAmmoSettings(10, 1000)
 	self:SetDamage(90)
 	self:SetSpread(10)
-	self:SetRecoil(3)
+	self:SetRecoil(1.5)
 	self:SetBulletSettings(1, 30000, 30000, Color(100, 58, 0))
 	self:SetSightTransform(Vector(-15, 0, -4.5), Rotator(0, 0, 0))
 	self:SetLeftHandTransform(Vector(25, 0, 6), Rotator(0, 60, 90))
@@ -1160,7 +1160,7 @@ function NanosWorldWeapons.AWP:Constructor(location, rotation)
 	self:SetAnimationCharacterFire("nanos-world::A_Mannequin_Sight_Fire_Pistol")
 	self:SetAnimationReload("nanos-world::AM_Mannequin_Reload_Rifle")
 
-	self:AddStaticMeshAttached("sight", "nanos-world::SM_Scope_25x56", "", Vector(20, 0, 11))
+	self:AddStaticMeshAttached("sight", "nanos-world::SM_Scope_25x56", "", Vector(20, 0, 11.175))
 end
 
 ---@class DC15S: Weapon
