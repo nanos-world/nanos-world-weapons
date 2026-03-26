@@ -4,10 +4,11 @@ Package.Export("NanosWorldWeapons", NanosWorldWeapons)
 
 ---@class AK47: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): AK47
-NanosWorldWeapons.AK47 = Weapon.Inherit("AK47")
-NanosWorldWeapons.AK47.name = "AK-47"
-NanosWorldWeapons.AK47.image = "assets://nanos-world/Thumbnails/SK_AK47.jpg"
-NanosWorldWeapons.AK47.category = "rifles"
+NanosWorldWeapons.AK47 = Weapon.Inherit("AK47", {
+	name = "AK-47",
+	image = "assets://nanos-world/Thumbnails/SK_AK47.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.AK47:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK47")
@@ -46,10 +47,11 @@ end
 
 ---@class AK74U: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): AK74U
-NanosWorldWeapons.AK74U = Weapon.Inherit("AK74U")
-NanosWorldWeapons.AK74U.name = "AK-74U"
-NanosWorldWeapons.AK74U.image = "assets://nanos-world/Thumbnails/SK_AK74U.jpg"
-NanosWorldWeapons.AK74U.category = "rifles"
+NanosWorldWeapons.AK74U = Weapon.Inherit("AK74U", {
+	name = "AK-74U",
+	image = "assets://nanos-world/Thumbnails/SK_AK74U.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.AK74U:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK74U")
@@ -88,10 +90,11 @@ end
 
 ---@class GE36: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): GE36
-NanosWorldWeapons.GE36 = Weapon.Inherit("GE36")
-NanosWorldWeapons.GE36.name = "Gewehr 36"
-NanosWorldWeapons.GE36.image = "assets://nanos-world/Thumbnails/SK_GE36.jpg"
-NanosWorldWeapons.GE36.category= "rifles"
+NanosWorldWeapons.GE36 = Weapon.Inherit("GE36", {
+	name = "Gewehr 36",
+	image = "assets://nanos-world/Thumbnails/SK_GE36.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.GE36:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_GE36")
@@ -130,10 +133,11 @@ end
 
 ---@class Glock: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): Glock
-NanosWorldWeapons.Glock = Weapon.Inherit("Glock")
-NanosWorldWeapons.Glock.name = "Glock"
-NanosWorldWeapons.Glock.image = "assets://nanos-world/Thumbnails/SK_Glock.jpg"
-NanosWorldWeapons.Glock.category= "pistols"
+NanosWorldWeapons.Glock = Weapon.Inherit("Glock", {
+	name = "Glock",
+	image = "assets://nanos-world/Thumbnails/SK_Glock.jpg",
+	category = "pistols",
+})
 
 function NanosWorldWeapons.Glock:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Glock")
@@ -175,10 +179,11 @@ end
 
 ---@class DesertEagle: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): DesertEagle
-NanosWorldWeapons.DesertEagle = Weapon.Inherit("DesertEagle")
-NanosWorldWeapons.DesertEagle.name = "Desert Eagle"
-NanosWorldWeapons.DesertEagle.image = "assets://nanos-world/Thumbnails/SK_DesertEagle.jpg"
-NanosWorldWeapons.DesertEagle.category= "pistols"
+NanosWorldWeapons.DesertEagle = Weapon.Inherit("DesertEagle", {
+	name = "Desert Eagle",
+	image = "assets://nanos-world/Thumbnails/SK_DesertEagle.jpg",
+	category = "pistols",
+})
 
 function NanosWorldWeapons.DesertEagle:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_DesertEagle")
@@ -220,10 +225,11 @@ end
 
 ---@class ColtPython: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): ColtPython
-NanosWorldWeapons.ColtPython = Weapon.Inherit("ColtPython")
-NanosWorldWeapons.ColtPython.name = "Colt Python"
-NanosWorldWeapons.ColtPython.image = "assets://nanos-world/Thumbnails/SK_Colt_Python.jpg"
-NanosWorldWeapons.ColtPython.category= "vintage"
+NanosWorldWeapons.ColtPython = Weapon.Inherit("ColtPython", {
+	name = "Colt Python",
+	image = "assets://nanos-world/Thumbnails/SK_Colt_Python.jpg",
+	category = "vintage",
+})
 
 function NanosWorldWeapons.ColtPython:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_ColtPython")
@@ -262,10 +268,11 @@ end
 
 ---@class Lewis: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): Lewis
-NanosWorldWeapons.Lewis = Weapon.Inherit("Lewis")
-NanosWorldWeapons.Lewis.name = "Lewis Gun"
-NanosWorldWeapons.Lewis.image = "assets://nanos-world/Thumbnails/SK_Lewis.jpg"
-NanosWorldWeapons.Lewis.category= "vintage"
+NanosWorldWeapons.Lewis = Weapon.Inherit("Lewis", {
+	name = "Lewis Gun",
+	image = "assets://nanos-world/Thumbnails/SK_Lewis.jpg",
+	category = "vintage",
+})
 
 function NanosWorldWeapons.Lewis:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Lewis")
@@ -303,10 +310,11 @@ end
 
 ---@class AR4: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): AR4
-NanosWorldWeapons.AR4 = Weapon.Inherit("AR4")
-NanosWorldWeapons.AR4.name = "AR-15"
-NanosWorldWeapons.AR4.image = "assets://nanos-world/Thumbnails/SK_AR4.jpg"
-NanosWorldWeapons.AR4.category= "rifles"
+NanosWorldWeapons.AR4 = Weapon.Inherit("AR4", {
+	name = "AR-15",
+	image = "assets://nanos-world/Thumbnails/SK_AR4.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.AR4:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AR4")
@@ -345,10 +353,11 @@ end
 
 ---@class Moss500: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): Moss500
-NanosWorldWeapons.Moss500 = Weapon.Inherit("Moss500")
-NanosWorldWeapons.Moss500.name = "Moss 500"
-NanosWorldWeapons.Moss500.image = "assets://nanos-world/Thumbnails/SK_Moss500.jpg"
-NanosWorldWeapons.Moss500.category= "shotguns"
+NanosWorldWeapons.Moss500 = Weapon.Inherit("Moss500", {
+	name = "Moss 500",
+	image = "assets://nanos-world/Thumbnails/SK_Moss500.jpg",
+	category = "shotguns",
+})
 
 function NanosWorldWeapons.Moss500:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Moss500")
@@ -387,10 +396,11 @@ end
 
 ---@class AP5: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): AP5
-NanosWorldWeapons.AP5 = Weapon.Inherit("AP5")
-NanosWorldWeapons.AP5.name = "MP5"
-NanosWorldWeapons.AP5.image = "assets://nanos-world/Thumbnails/SK_AP5.jpg"
-NanosWorldWeapons.AP5.category= "smgs"
+NanosWorldWeapons.AP5 = Weapon.Inherit("AP5", {
+	name = "MP5",
+	image = "assets://nanos-world/Thumbnails/SK_AP5.jpg",
+	category = "smgs",
+})
 
 function NanosWorldWeapons.AP5:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AP5")
@@ -429,10 +439,11 @@ end
 
 ---@class SMG11: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): SMG11
-NanosWorldWeapons.SMG11 = Weapon.Inherit("SMG11")
-NanosWorldWeapons.SMG11.name = "MAC-10"
-NanosWorldWeapons.SMG11.image = "assets://nanos-world/Thumbnails/SK_SMG11.jpg"
-NanosWorldWeapons.SMG11.category= "smgs"
+NanosWorldWeapons.SMG11 = Weapon.Inherit("SMG11", {
+	name = "MAC-10",
+	image = "assets://nanos-world/Thumbnails/SK_SMG11.jpg",
+	category = "smgs",
+})
 
 function NanosWorldWeapons.SMG11:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SMG11")
@@ -473,10 +484,11 @@ end
 
 ---@class ASVal: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): ASVal
-NanosWorldWeapons.ASVal = Weapon.Inherit("ASVal")
-NanosWorldWeapons.ASVal.name = "AS-Val"
-NanosWorldWeapons.ASVal.image = "assets://nanos-world/Thumbnails/SK_ASVal.jpg"
-NanosWorldWeapons.ASVal.category= "rifles"
+NanosWorldWeapons.ASVal = Weapon.Inherit("ASVal", {
+	name = "AS-Val",
+	image = "assets://nanos-world/Thumbnails/SK_ASVal.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.ASVal:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_ASVal")
@@ -517,10 +529,11 @@ end
 
 ---@class M1911: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): M1911
-NanosWorldWeapons.M1911 = Weapon.Inherit("M1911")
-NanosWorldWeapons.M1911.name = "M1911"
-NanosWorldWeapons.M1911.image = "assets://nanos-world/Thumbnails/SK_M1911.jpg"
-NanosWorldWeapons.M1911.category= "pistols"
+NanosWorldWeapons.M1911 = Weapon.Inherit("M1911", {
+	name = "M1911",
+	image = "assets://nanos-world/Thumbnails/SK_M1911.jpg",
+	category = "pistols",
+})
 
 function NanosWorldWeapons.M1911:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_M1911")
@@ -562,10 +575,11 @@ end
 
 ---@class Makarov: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): Makarov
-NanosWorldWeapons.Makarov = Weapon.Inherit("Makarov")
-NanosWorldWeapons.Makarov.name = "Makarov"
-NanosWorldWeapons.Makarov.image = "assets://nanos-world/Thumbnails/SK_Makarov.jpg"
-NanosWorldWeapons.Makarov.category= "pistols"
+NanosWorldWeapons.Makarov = Weapon.Inherit("Makarov", {
+	name = "Makarov",
+	image = "assets://nanos-world/Thumbnails/SK_Makarov.jpg",
+	category = "pistols",
+})
 
 function NanosWorldWeapons.Makarov:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Makarov")
@@ -607,10 +621,11 @@ end
 
 ---@class UMP45: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): UMP45
-NanosWorldWeapons.UMP45 = Weapon.Inherit("UMP45")
-NanosWorldWeapons.UMP45.name = "UMP-45"
-NanosWorldWeapons.UMP45.image = "assets://nanos-world/Thumbnails/SK_UMP45.jpg"
-NanosWorldWeapons.UMP45.category= "smgs"
+NanosWorldWeapons.UMP45 = Weapon.Inherit("UMP45", {
+	name = "UMP-45",
+	image = "assets://nanos-world/Thumbnails/SK_UMP45.jpg",
+	category = "smgs",
+})
 
 function NanosWorldWeapons.UMP45:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_UMP45")
@@ -649,10 +664,11 @@ end
 
 ---@class P90: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): P90
-NanosWorldWeapons.P90 = Weapon.Inherit("P90")
-NanosWorldWeapons.P90.name = "P90"
-NanosWorldWeapons.P90.image = "assets://nanos-world/Thumbnails/SK_P90.jpg"
-NanosWorldWeapons.P90.category= "smgs"
+NanosWorldWeapons.P90 = Weapon.Inherit("P90", {
+	name = "P90",
+	image = "assets://nanos-world/Thumbnails/SK_P90.jpg",
+	category = "smgs",
+})
 
 function NanosWorldWeapons.P90:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_P90")
@@ -692,10 +708,11 @@ end
 
 ---@class GE3: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): GE3
-NanosWorldWeapons.GE3 = Weapon.Inherit("GE3")
-NanosWorldWeapons.GE3.name = "Gewehr 3"
-NanosWorldWeapons.GE3.image = "assets://nanos-world/Thumbnails/SK_GE3.jpg"
-NanosWorldWeapons.GE3.category= "rifles"
+NanosWorldWeapons.GE3 = Weapon.Inherit("GE3", {
+	name = "Gewehr 3",
+	image = "assets://nanos-world/Thumbnails/SK_GE3.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.GE3:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_GE3")
@@ -736,10 +753,11 @@ end
 
 ---@class AK5C: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): AK5C
-NanosWorldWeapons.AK5C = Weapon.Inherit("AK5C")
-NanosWorldWeapons.AK5C.name = "Automatkarbin 5C"
-NanosWorldWeapons.AK5C.image = "assets://nanos-world/Thumbnails/SK_AK5C.jpg"
-NanosWorldWeapons.AK5C.category= "rifles"
+NanosWorldWeapons.AK5C = Weapon.Inherit("AK5C", {
+	name = "Automatkarbin 5C",
+	image = "assets://nanos-world/Thumbnails/SK_AK5C.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.AK5C:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK5C")
@@ -780,10 +798,11 @@ end
 
 ---@class SA80: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): SA80
-NanosWorldWeapons.SA80 = Weapon.Inherit("SA80")
-NanosWorldWeapons.SA80.name = "SA-80"
-NanosWorldWeapons.SA80.image = "assets://nanos-world/Thumbnails/SK_SA80.jpg"
-NanosWorldWeapons.SA80.category= "rifles"
+NanosWorldWeapons.SA80 = Weapon.Inherit("SA80", {
+	name = "SA-80",
+	image = "assets://nanos-world/Thumbnails/SK_SA80.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.SA80:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SA80")
@@ -824,10 +843,11 @@ end
 
 ---@class Sten: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): Sten
-NanosWorldWeapons.Sten = Weapon.Inherit("Sten")
-NanosWorldWeapons.Sten.name = "Sten"
-NanosWorldWeapons.Sten.image = "assets://nanos-world/Thumbnails/SK_Sten.jpg"
-NanosWorldWeapons.Sten.category= "vintage"
+NanosWorldWeapons.Sten = Weapon.Inherit("Sten", {
+	name = "Sten",
+	image = "assets://nanos-world/Thumbnails/SK_Sten.jpg",
+	category = "vintage",
+})
 
 function NanosWorldWeapons.Sten:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Sten")
@@ -867,10 +887,11 @@ end
 
 ---@class BAR: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): BAR
-NanosWorldWeapons.BAR = Weapon.Inherit("BAR")
-NanosWorldWeapons.BAR.name = "BAR"
-NanosWorldWeapons.BAR.image = "assets://nanos-world/Thumbnails/SK_BAR.jpg"
-NanosWorldWeapons.BAR.category= "vintage"
+NanosWorldWeapons.BAR = Weapon.Inherit("BAR", {
+	name = "BAR",
+	image = "assets://nanos-world/Thumbnails/SK_BAR.jpg",
+	category = "vintage",
+})
 
 function NanosWorldWeapons.BAR:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_BAR")
@@ -910,10 +931,11 @@ end
 
 ---@class StG44: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): StG44
-NanosWorldWeapons.StG44 = Weapon.Inherit("StG44")
-NanosWorldWeapons.StG44.name = "StG44"
-NanosWorldWeapons.StG44.image = "assets://nanos-world/Thumbnails/SK_StG44.jpg"
-NanosWorldWeapons.StG44.category= "vintage"
+NanosWorldWeapons.StG44 = Weapon.Inherit("StG44", {
+	name = "StG44",
+	image = "assets://nanos-world/Thumbnails/SK_StG44.jpg",
+	category = "vintage",
+})
 
 function NanosWorldWeapons.StG44:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_StG44")
@@ -953,10 +975,11 @@ end
 
 ---@class Ithaca37: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): Ithaca37
-NanosWorldWeapons.Ithaca37 = Weapon.Inherit("Ithaca37")
-NanosWorldWeapons.Ithaca37.name = "Ithaca 37"
-NanosWorldWeapons.Ithaca37.image = "assets://nanos-world/Thumbnails/SK_Ithaca37.jpg"
-NanosWorldWeapons.Ithaca37.category= "shotguns"
+NanosWorldWeapons.Ithaca37 = Weapon.Inherit("Ithaca37", {
+	name = "Ithaca 37",
+	image = "assets://nanos-world/Thumbnails/SK_Ithaca37.jpg",
+	category = "shotguns",
+})
 
 function NanosWorldWeapons.Ithaca37:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Ithaca37")
@@ -995,10 +1018,11 @@ end
 
 ---@class Rem870: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): Rem870
-NanosWorldWeapons.Rem870 = Weapon.Inherit("Rem870")
-NanosWorldWeapons.Rem870.name = "Rem 870"
-NanosWorldWeapons.Rem870.image = "assets://nanos-world/Thumbnails/SK_Rem870.jpg"
-NanosWorldWeapons.Rem870.category= "shotguns"
+NanosWorldWeapons.Rem870 = Weapon.Inherit("Rem870", {
+	name = "Rem 870",
+	image = "assets://nanos-world/Thumbnails/SK_Rem870.jpg",
+	category = "shotguns",
+})
 
 function NanosWorldWeapons.Rem870:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Rem870")
@@ -1037,10 +1061,11 @@ end
 
 ---@class SPAS12: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): SPAS12
-NanosWorldWeapons.SPAS12 = Weapon.Inherit("SPAS12")
-NanosWorldWeapons.SPAS12.name = "SPAS12"
-NanosWorldWeapons.SPAS12.image = "assets://nanos-world/Thumbnails/SK_SPAS12.jpg"
-NanosWorldWeapons.SPAS12.category= "shotguns"
+NanosWorldWeapons.SPAS12 = Weapon.Inherit("SPAS12", {
+	name = "SPAS12",
+	image = "assets://nanos-world/Thumbnails/SK_SPAS12.jpg",
+	category = "shotguns",
+})
 
 function NanosWorldWeapons.SPAS12:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SPAS12")
@@ -1079,10 +1104,11 @@ end
 
 ---@class M1Garand: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): M1Garand
-NanosWorldWeapons.M1Garand = Weapon.Inherit("M1Garand")
-NanosWorldWeapons.M1Garand.name = "M1Garand"
-NanosWorldWeapons.M1Garand.image = "assets://nanos-world/Thumbnails/SK_M1Garand.jpg"
-NanosWorldWeapons.M1Garand.category= "vintage"
+NanosWorldWeapons.M1Garand = Weapon.Inherit("M1Garand", {
+	name = "M1Garand",
+	image = "assets://nanos-world/Thumbnails/SK_M1Garand.jpg",
+	category = "vintage",
+})
 
 function NanosWorldWeapons.M1Garand:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_M1Garand")
@@ -1122,10 +1148,11 @@ end
 
 ---@class AWP: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): AWP
-NanosWorldWeapons.AWP = Weapon.Inherit("AWP")
-NanosWorldWeapons.AWP.name = "AWP"
-NanosWorldWeapons.AWP.image = "assets://nanos-world/Thumbnails/SK_AWP.jpg"
-NanosWorldWeapons.AWP.category= "sniper-rifles"
+NanosWorldWeapons.AWP = Weapon.Inherit("AWP", {
+	name = "AWP",
+	image = "assets://nanos-world/Thumbnails/SK_AWP.jpg",
+	category = "sniper-rifles",
+})
 
 function NanosWorldWeapons.AWP:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AWP")
@@ -1165,10 +1192,11 @@ end
 
 ---@class DC15S: Weapon
 ---@overload fun(location: Vector, rotation: Rotator): DC15S
-NanosWorldWeapons.DC15S = Weapon.Inherit("DC15S")
-NanosWorldWeapons.DC15S.name = "DC15S"
-NanosWorldWeapons.DC15S.image = "assets://nanos-world/Thumbnails/SK_DC15S.jpg"
-NanosWorldWeapons.DC15S.category= "rifles"
+NanosWorldWeapons.DC15S = Weapon.Inherit("DC15S", {
+	name = "DC15S",
+	image = "assets://nanos-world/Thumbnails/SK_DC15S.jpg",
+	category = "rifles",
+})
 
 function NanosWorldWeapons.DC15S:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_DC15S")
@@ -1204,13 +1232,70 @@ function NanosWorldWeapons.DC15S:Constructor(location, rotation)
 	self:SetCrosshairMaterial("nanos-world::MI_Crosshair_Regular")
 end
 
----@class G67: Weapon
+---@class G67: Grenade
 ---@overload fun(location: Vector, rotation: Rotator): G67
-NanosWorldWeapons.G67 = Grenade.Inherit("G67")
-NanosWorldWeapons.G67.name = "Grenade"
-NanosWorldWeapons.G67.image = "assets://nanos-world/Thumbnails/SM_Grenade_G67.jpg"
-NanosWorldWeapons.G67.category= "grenades"
+NanosWorldWeapons.G67 = Grenade.Inherit("G67", {
+	name = "Grenade",
+	image = "assets://nanos-world/Thumbnails/SM_Grenade_G67.jpg",
+	category= "grenades",
+})
 
 function NanosWorldWeapons.G67:Constructor(location, rotation)
 	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_Grenade_G67")
+end
+
+
+---@class Knife: Melee
+---@overload fun(location: Vector, rotation: Rotator): Knife
+NanosWorldWeapons.Knife = Melee.Inherit("Knife", {
+	name = "Knife",
+	image = "assets://nanos-world/Thumbnails/SM_M9.jpg",
+	category = "melees",
+})
+
+function NanosWorldWeapons.Knife:Constructor(location, rotation)
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_M9", CollisionType.Normal, true, HandlingMode.SingleHandedMelee)
+	self:AddAnimationCharacterUse("nanos-world::AM_Mannequin_Melee_Stab_Attack")
+	self:SetDamageSettings(0.3, 0.3)
+	self:SetCooldown(1.5)
+	self:SetBaseDamage(50)
+	self:SetImpactSound(SurfaceType.Default, "nanos-world::A_MetalHeavy_Impact_MS")
+end
+
+---@class Crowbar: Melee
+---@overload fun(location: Vector, rotation: Rotator): Crowbar
+NanosWorldWeapons.Crowbar = Melee.Inherit("Crowbar", {
+	name = "Crowbar",
+	image = "assets://nanos-world/Thumbnails/SM_Crowbar_01.jpg",
+	category = "melees"
+})
+
+function NanosWorldWeapons.Crowbar:Constructor(location, rotation)
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_Crowbar_01", CollisionType.Normal, true, HandlingMode.SingleHandedMelee)
+	self:SetScale(Vector(1.5, 1.5, 1.5))
+	self:AddAnimationCharacterUse("nanos-world::AM_Mannequin_Melee_Slash_Attack")
+	self:SetDamageSettings(0.3, 0.5)
+	self:SetCooldown(1.0)
+	self:SetBaseDamage(40)
+	self:SetImpactSound(SurfaceType.Flesh, "nanos-world::A_Punch_Cue")
+	self:SetImpactSound(SurfaceType.Default, "nanos-world::A_MetalHeavy_Impact_MS")
+end
+
+---@class BaseballBat: Melee
+---@overload fun(location: Vector, rotation: Rotator): BaseballBat
+NanosWorldWeapons.BaseballBat = Melee.Inherit("BaseballBat", {
+	name = "Baseball Bat",
+	image = "assets://nanos-world/Thumbnails/SM_BaseballBat_01.jpg",
+	category = "melees"
+})
+
+function NanosWorldWeapons.BaseballBat:Constructor(location, rotation)
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_BaseballBat_01", CollisionType.Normal, true, HandlingMode.SingleHandedMelee)
+	self:AddAnimationCharacterUse("nanos-world::AM_Mannequin_Melee_Slash_Attack")
+	self:SetDamageSettings(0.3, 0.5)
+	self:SetAttachmentSettings(Vector(0, 0, -10), Rotator(-10, 0, 0))
+	self:SetCooldown(1.0)
+	self:SetBaseDamage(30)
+	self:SetImpactSound(SurfaceType.Flesh, "nanos-world::A_Punch_Cue")
+	self:SetImpactSound(SurfaceType.Default, "nanos-world::A_MetalHeavy_Impact_MS")
 end

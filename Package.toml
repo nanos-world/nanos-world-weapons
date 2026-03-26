@@ -5,7 +5,7 @@
     # contributors
     author =                "nanos world™"
     # version
-    version =               "1.2.2"
+    version =               "1.3.0"
 
 # script configurations
 [script]
@@ -19,13 +19,13 @@
     compatibility_version = "1.55"
     # packages requirements
     packages_requirements = [
-                            
+
     ]
     # asset packs requirements
     assets_requirements = [
-                            
+
     ]
     # compatible game modes
     compatible_game_modes = [
-                            
+
     ]
