@@ -11,7 +11,7 @@ NanosWorldWeapons.AK47 = Weapon.Inherit("AK47", {
 })
 
 function NanosWorldWeapons.AK47:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK47")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK47", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -54,7 +54,7 @@ NanosWorldWeapons.AK74U = Weapon.Inherit("AK74U", {
 })
 
 function NanosWorldWeapons.AK74U:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK74U")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK74U", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(25)
@@ -97,7 +97,7 @@ NanosWorldWeapons.GE36 = Weapon.Inherit("GE36", {
 })
 
 function NanosWorldWeapons.GE36:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_GE36")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_GE36", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -140,7 +140,7 @@ NanosWorldWeapons.Glock = Weapon.Inherit("Glock", {
 })
 
 function NanosWorldWeapons.Glock:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Glock")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Glock", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(17, 1000)
 	self:SetDamage(15)
@@ -186,7 +186,7 @@ NanosWorldWeapons.DesertEagle = Weapon.Inherit("DesertEagle", {
 })
 
 function NanosWorldWeapons.DesertEagle:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_DesertEagle")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_DesertEagle", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(7, 1000)
 	self:SetDamage(45)
@@ -232,7 +232,7 @@ NanosWorldWeapons.ColtPython = Weapon.Inherit("ColtPython", {
 })
 
 function NanosWorldWeapons.ColtPython:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_ColtPython")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_ColtPython", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(7, 1000, 1)
 	self:SetDamage(45)
@@ -275,7 +275,7 @@ NanosWorldWeapons.Lewis = Weapon.Inherit("Lewis", {
 })
 
 function NanosWorldWeapons.Lewis:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Lewis")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Lewis", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(47, 1000)
 	self:SetDamage(25)
@@ -317,7 +317,7 @@ NanosWorldWeapons.AR4 = Weapon.Inherit("AR4", {
 })
 
 function NanosWorldWeapons.AR4:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AR4")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AR4", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -360,7 +360,7 @@ NanosWorldWeapons.Moss500 = Weapon.Inherit("Moss500", {
 })
 
 function NanosWorldWeapons.Moss500:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Moss500")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Moss500", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(6, 1000, 1)
 	self:SetDamage(30)
@@ -403,7 +403,7 @@ NanosWorldWeapons.AP5 = Weapon.Inherit("AP5", {
 })
 
 function NanosWorldWeapons.AP5:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AP5")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AP5", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(15)
@@ -446,7 +446,7 @@ NanosWorldWeapons.SMG11 = Weapon.Inherit("SMG11", {
 })
 
 function NanosWorldWeapons.SMG11:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SMG11")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SMG11", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(32, 1000)
 	self:SetDamage(15)
@@ -491,7 +491,7 @@ NanosWorldWeapons.ASVal = Weapon.Inherit("ASVal", {
 })
 
 function NanosWorldWeapons.ASVal:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_ASVal")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_ASVal", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(20, 1000)
 	self:SetDamage(20)
@@ -536,7 +536,7 @@ NanosWorldWeapons.M1911 = Weapon.Inherit("M1911", {
 })
 
 function NanosWorldWeapons.M1911:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_M1911")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_M1911", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(8, 1000)
 	self:SetDamage(20)
@@ -582,7 +582,7 @@ NanosWorldWeapons.Makarov = Weapon.Inherit("Makarov", {
 })
 
 function NanosWorldWeapons.Makarov:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Makarov")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Makarov", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(8, 1000)
 	self:SetDamage(20)
@@ -628,7 +628,7 @@ NanosWorldWeapons.UMP45 = Weapon.Inherit("UMP45", {
 })
 
 function NanosWorldWeapons.UMP45:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_UMP45")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_UMP45", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(25, 1000)
 	self:SetDamage(35)
@@ -671,7 +671,7 @@ NanosWorldWeapons.P90 = Weapon.Inherit("P90", {
 })
 
 function NanosWorldWeapons.P90:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_P90")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_P90", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(50, 1000)
 	self:SetDamage(25)
@@ -715,7 +715,7 @@ NanosWorldWeapons.GE3 = Weapon.Inherit("GE3", {
 })
 
 function NanosWorldWeapons.GE3:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_GE3")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_GE3", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -760,7 +760,7 @@ NanosWorldWeapons.AK5C = Weapon.Inherit("AK5C", {
 })
 
 function NanosWorldWeapons.AK5C:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK5C")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AK5C", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -805,7 +805,7 @@ NanosWorldWeapons.SA80 = Weapon.Inherit("SA80", {
 })
 
 function NanosWorldWeapons.SA80:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SA80")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SA80", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -850,7 +850,7 @@ NanosWorldWeapons.Sten = Weapon.Inherit("Sten", {
 })
 
 function NanosWorldWeapons.Sten:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Sten")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Sten", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -894,7 +894,7 @@ NanosWorldWeapons.BAR = Weapon.Inherit("BAR", {
 })
 
 function NanosWorldWeapons.BAR:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_BAR")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_BAR", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -938,7 +938,7 @@ NanosWorldWeapons.StG44 = Weapon.Inherit("StG44", {
 })
 
 function NanosWorldWeapons.StG44:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_StG44")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_StG44", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(30)
@@ -982,7 +982,7 @@ NanosWorldWeapons.Ithaca37 = Weapon.Inherit("Ithaca37", {
 })
 
 function NanosWorldWeapons.Ithaca37:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Ithaca37")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Ithaca37", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(6, 1000, 1)
 	self:SetDamage(30)
@@ -1025,7 +1025,7 @@ NanosWorldWeapons.Rem870 = Weapon.Inherit("Rem870", {
 })
 
 function NanosWorldWeapons.Rem870:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Rem870")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_Rem870", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(6, 1000, 1)
 	self:SetDamage(30)
@@ -1068,7 +1068,7 @@ NanosWorldWeapons.SPAS12 = Weapon.Inherit("SPAS12", {
 })
 
 function NanosWorldWeapons.SPAS12:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SPAS12")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_SPAS12", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(6, 1000, 1)
 	self:SetDamage(20)
@@ -1111,7 +1111,7 @@ NanosWorldWeapons.M1Garand = Weapon.Inherit("M1Garand", {
 })
 
 function NanosWorldWeapons.M1Garand:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_M1Garand")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_M1Garand", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(8, 1000)
 	self:SetDamage(35)
@@ -1155,7 +1155,7 @@ NanosWorldWeapons.AWP = Weapon.Inherit("AWP", {
 })
 
 function NanosWorldWeapons.AWP:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AWP")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_AWP", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(10, 1000)
 	self:SetDamage(90)
@@ -1199,7 +1199,7 @@ NanosWorldWeapons.DC15S = Weapon.Inherit("DC15S", {
 })
 
 function NanosWorldWeapons.DC15S:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_DC15S")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SK_DC15S", CollisionType.Auto, true, true)
 
 	self:SetAmmoSettings(30, 1000)
 	self:SetDamage(25)
@@ -1241,7 +1241,7 @@ NanosWorldWeapons.G67 = Grenade.Inherit("G67", {
 })
 
 function NanosWorldWeapons.G67:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_Grenade_G67")
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_Grenade_G67", nil, nil, CollisionType.Auto, true, true)
 end
 
 
@@ -1254,7 +1254,7 @@ NanosWorldWeapons.Knife = Melee.Inherit("Knife", {
 })
 
 function NanosWorldWeapons.Knife:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_M9", CollisionType.Normal, true, HandlingMode.SingleHandedMelee)
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_M9", CollisionType.Normal, true, HandlingMode.SingleHandedMelee, nil, true, true)
 	self:AddAnimationCharacterUse("nanos-world::AM_Mannequin_Melee_Stab_Attack")
 	self:SetDamageSettings(0.3, 0.3)
 	self:SetCooldown(1.5)
@@ -1271,7 +1271,7 @@ NanosWorldWeapons.Crowbar = Melee.Inherit("Crowbar", {
 })
 
 function NanosWorldWeapons.Crowbar:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_Crowbar_01", CollisionType.Normal, true, HandlingMode.SingleHandedMelee)
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_Crowbar_01", CollisionType.Normal, true, HandlingMode.SingleHandedMelee, nil, true, true)
 	self:SetScale(Vector(1.5, 1.5, 1.5))
 	self:AddAnimationCharacterUse("nanos-world::AM_Mannequin_Melee_Slash_Attack")
 	self:SetDamageSettings(0.3, 0.5)
@@ -1290,7 +1290,7 @@ NanosWorldWeapons.BaseballBat = Melee.Inherit("BaseballBat", {
 })
 
 function NanosWorldWeapons.BaseballBat:Constructor(location, rotation)
-	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_BaseballBat_01", CollisionType.Normal, true, HandlingMode.SingleHandedMelee)
+	self.Super:Constructor(location or Vector(), rotation or Rotator(), "nanos-world::SM_BaseballBat_01", CollisionType.Normal, true, HandlingMode.SingleHandedMelee, nil, true, true)
 	self:AddAnimationCharacterUse("nanos-world::AM_Mannequin_Melee_Slash_Attack")
 	self:SetDamageSettings(0.3, 0.5)
 	self:SetAttachmentSettings(Vector(0, 0, -10), Rotator(-10, 0, 0))
